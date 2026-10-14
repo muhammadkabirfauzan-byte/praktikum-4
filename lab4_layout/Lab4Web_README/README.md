@@ -95,36 +95,6 @@ Screenshot ini menunjukkan bagian awal dokumen HTML, pemanggilan stylesheet, ser
 
 Screenshot ini menunjukkan bagian hero, widget/sidebar, dan awal area konten utama beserta kartu fitur.
 
-## Menjalankan Proyek
-1. Buka folder proyek `Lab4Web` di Visual Studio Code.
-2. Pastikan file HTML dan `style.css` berada di lokasi yang benar.
-3. Klik kanan `home.html`, lalu pilih **Open with Live Server** jika ekstensi Live Server tersedia. Alternatifnya, buka file HTML langsung melalui browser.
-4. Gunakan menu navigasi untuk membuka halaman Home, Artikel, About, dan Kontak.
-
-## Git: Commit dan Push
-Jika repository GitHub belum dihubungkan, jalankan perintah berikut di terminal pada folder proyek. Ganti `USERNAME` dengan nama akun GitHub sendiri.
-
-```bash
-git init
-git add .
-git commit -m "Praktikum Lab4Web: layout web"
-git branch -M main
-git remote add origin https://github.com/USERNAME/Lab4Web.git
-git push -u origin main
-```
-
-Jika remote repository sudah pernah ditambahkan, tidak perlu menjalankan `git remote add origin` lagi. Untuk perubahan berikutnya, gunakan:
-
-```bash
-git add .
-git commit -m "Menambahkan halaman About dan Contact"
-git push
-```
-
-Setelah berhasil diunggah, salin URL repository GitHub dan kumpulkan melalui e-learning eCampus.
 
 ## Kesimpulan
 Praktikum ini memperkenalkan pembuatan layout web menggunakan HTML dan CSS. Struktur halaman disusun melalui header, navigasi, konten utama, sidebar/widget, kartu fitur, dan footer. Halaman About digunakan untuk menampilkan deskripsi dan portofolio, sedangkan halaman Contact menyediakan formulir pesan. Dokumentasi README dan screenshot membantu menjelaskan tahapan pengerjaan serta hasil praktikum.
-
----
-**Catatan:** Pastikan halaman `about.html` dan `kontak.html` sudah dibuat dan diuji sebelum dikumpulkan. Screenshot tambahan dari hasil tampilan browser juga dapat dimasukkan ke folder `assets` dengan menambahkan sintaks `![Keterangan screenshot](assets/nama-file.png)` pada bagian yang sesuai.
